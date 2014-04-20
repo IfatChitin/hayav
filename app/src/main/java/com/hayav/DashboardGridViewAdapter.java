@@ -45,6 +45,7 @@ public class DashboardGridViewAdapter extends ArrayAdapter<Item> {
         Item item = data.get(position);
         holder.title.setText(item.getTitle());
         holder.description.setText(item.getDescription());
+
         return row;
     }
 

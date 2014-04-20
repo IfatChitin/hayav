@@ -16,13 +16,13 @@
 	<name>hayav - Application</name>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.google.android</groupId>
-			<artifactId>android</artifactId>
-			<version>${platform.version}</version>
-			<scope>provided</scope>
-		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>support-v4</artifactId>
+            <version>r6</version>
+        </dependency>
+
+    </dependencies>
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>

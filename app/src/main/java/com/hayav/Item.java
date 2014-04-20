@@ -1,8 +1,5 @@
 package com.hayav;
 
-/**
- * Created by chitin on 20/04/14.
- */
 public class Item {
 
     private String title;
